@@ -7,7 +7,7 @@
 </div>
 Class Resources Repository. Integrates with Club website.<br/>
 
-These are the official repository for hosting UML class resoures on the [club website](https://umlcloudcomputing.org/docs/resources).
+This is the official repository for hosting UML class resoures on the [club website](https://umlcloudcomputing.org/docs/resources).
 
 ## 📒 Guidelines & Rules
 
