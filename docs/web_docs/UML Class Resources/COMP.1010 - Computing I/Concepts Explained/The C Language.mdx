@@ -1,3 +1,111 @@
 # The C Language
 
-The legend and horror that is the C language
+### The legend and horror that is the C language
+
+The C programming language is a general-purpose programming language created by Dennis Ritchie in the 1970s at Bell Labs. 
+It became highly influential, particularly in the development of operating systems (notably UNIX), device drivers, kernels, 
+and more. C has also inspired the creation of many modern programming languages, such as Python, C++ (*C with classes*), and Java.
+
+C is widely used in various computing environments, ranging from supercomputers to microcontrollers and embedded systems. 
+Its ability to directly manipulate hardware and memory makes it an essential language in low-level programming, where control over system resources is critical.
+
+C is a compiled language, meaning you need to compile the code (using GCC, for example) into machine-readable code. This process creates an executable file, which you can then run to execute the provided code.
+
+Sources:\
+[Learn-c](https://www.learn-c.org/en/Hello%2C_World%21)\
+[geeksforgeeks](https://www.geeksforgeeks.org/c-language-introduction/?ref=shm)\
+[w3schools](https://www.w3schools.com/c/index.php)
+
+
+
+
+
+Below are some key topics you need to understand to grasp the power of C and how it can be used to create complex, efficient, and high-performance software.
+
+## Basic Syntax and Structure
+### Headers 
+Programs written in C rely on headers to access essential functions, such as scanf and printf. Without this, you wouldn’t be able to use these built-in functions and would need to write your own versions to replicate their functionality and performance.
+
+```c
+// #include is a preprocessor directive
+// <stdio.h> is the header itself
+#include <stdio.h>
+```
+:::warning
+Writing these functions yourself is not recommended, as they have already been thoroughly developed and tested for efficiency and reliability.
+:::
+:::note
+To name a few `<stdio.h>`,`<stlib.h>`, *and* `<math.h>` *are part of the C Standard Library, so you don't need to write your own implementation for them.
+:::
+---
+### Function Naming Scheme
+Every C program must have a main function, which serves as the entry point for the program. This is where the execution begins, and the code you write is placed inside this function.
+
+The `int` keyword specifies the return type of the main function, indicating that it returns an integer value once the program finishes running. A return value of `0` typically means the program ran successfully, while any non-zero value indicates an error or unsuccessful execution.
+
+Every function in C needs a name, and in this case, `main` is the function's name (think of it as an `identifier`). The main function is special because it's where execution starts, but it can also be called by other functions in the program, like this: `main()` (*don’t worry, we’ll discuss this in more detail when we cover functions*).
+
+
+```c
+//** simple main function**
+// int - return type
+// main - function name
+int main () {
+
+}
+
+//**A more advanced adaptation of main to read command line arguments.**//
+// int - return type
+// main - function name
+// int argc - number of command line arguments passed
+/* char* argv[] - stores the command line arguments as strings 
+in the argv array with each command stored in its own array index*/
+int main (int argc, char* argv[]) {
+
+}
+```
+:::tip 
+**int argc** and **char\* argv[]** parameters allow for direct storage and retrival of command line arguments instead of storing and accessing them indirectly.
+:::
+:::warning
+You can name other functions anything you like, but main is ***required*** so the compiler knows where to begin execution.
+:::
+---
+### Return Types
+The main function contains a return type `int` and we now need to include another keyword `return`. return is how you would exit the function and return something to the caller (*which is our operating system in this case*) with its associated type (*which in our case is an* ``int`` *so we return a integer value*).
+
+
+```c
+
+/*assuming the header and main function have been well defined and each return type has an 
+associated function with said return type*/
+
+return 0; -> returns an integer value to the caller
+
+return 3.41; -> returns a float/double value to the caller
+
+return arr; -> returns a string to the caller // assuming arr has been well defined 
+
+return 'a'; -> returns a character value to the caller
+
+```
+:::danger 
+It is important to note that if the return type is not `void` you cannot return nothing (*denotate as* `return`)
+:::
+---
+### Syntax 
+
+
+## Control Structures
+
+## Functions
+
+## Pointers
+
+## Arrays and Strings
+
+## Structures and Unions
+
+## File Handling
+
+## Memory Management
