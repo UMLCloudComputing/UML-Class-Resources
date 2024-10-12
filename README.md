@@ -35,10 +35,27 @@ This is a **student-led initiative** for sharing helpful resources for Computer 
 #### 🔨 Building your changes locally
 Since this repository hosts the content displayed on the website *independently* from the website source code itself, viewing the content of your edits to the markdown docs is done using a docs only instance of Docusaurus.
 
-To do so run the following command locally in your terminal:
+Prequisites:
+- Node package manager - `npm`
+
+When you've cloned the repository for the **first time**, run the following command to install the project's dependencies:
+```bash
+npm install
+``` 
+
+**For subsequent runs** and after running installing the dependencies:
+
+Run the following command locally in your terminal:
 ```bash
 npm start
 ```
+
+This will open a development server that will perform **live** and **accurate** updates to your markdown edits. The compiled content on the development folder is accurate to the production site. 
+
+> [!IMPORTANT]
+> When the developer server starts you will be prompted to a page with information about contribution guidelines. Read this closely! It's important that every contributor understands and follows these rules!
+
+To **stop** the server use `Ctrl + C` in your terminal. 
 
 >[!NOTE]
 > Our club leaders will moderate all contributions to ensure they follow the guidelines and maintain academic integrity. 🛠️
