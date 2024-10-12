@@ -1,7 +1,5 @@
 <div align="center">
-    <a href="https://cloudcomputingclub.cs.uml.edu/">
-        <img src="static/img/logo.png" alt="Logo" width="50%" height="50%"/>
-    </a>
+    <img src="static/img/logo.png" alt="Logo" width="50%" height="50%"/>
     <hr>
     <h1>UML Class Resources</h1>
 </div>
@@ -50,7 +48,7 @@ Run the following command locally in your terminal:
 npm start
 ```
 
-This will open a development server that will perform **live** and **accurate** updates to your markdown edits. The compiled content on the development folder is accurate to the production site. 
+This will open a development server that will perform **live** and **accurate** updates to your markdown edits. The compiled content on the development server is accurate to the production site. 
 
 > [!IMPORTANT]
 > When the developer server starts you will be prompted to a page with information about contribution guidelines. Read this closely! It's important that every contributor understands and follows these rules!
