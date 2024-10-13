@@ -58,9 +58,14 @@ To **stop** the server use `Ctrl + C` in your terminal.
 >[!NOTE]
 > Our club leaders will moderate all contributions to ensure they follow the guidelines and maintain academic integrity. 🛠️
 
-### 📬 Removal Requests
 If a professor or faculty member would like to have content removed, please [contact us](mailto:cloudcomputingclub@uml.edu) with "**Removal Request**" in the subject header. 📨
 
 ### 🌟 Let’s Collaborate
 Let’s make this platform a valuable resource while keeping academic standards high! 💡
 
+## 🎉 Acknowledgements 
+Many thanks to the [UMass Lowell Cloud Computing Club](https://umasslowellclubs.campuslabs.com/engage/organization/cloudcomputingclub) members, our faculty advisor [Dr. Johannes Weis](https://www.uml.edu/sciences/computer-science/people/weis-johannes.aspx), and the [UMass Lowell Computer Science Department](https://www.uml.edu/Sciences/computer-science/) for their support and guidance.
+
+Much thanks to our contributors as well:
+
+[![Contributors](https://contributors-img.web.app/image?repo=UMLCloudComputing/UML-Class-Resources)](https://github.com/UMLCloudComputing/UML-Class-Resources/graphs/contributors)
