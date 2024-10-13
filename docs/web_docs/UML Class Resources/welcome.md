@@ -24,11 +24,8 @@ This is a **student-led initiative** for sharing helpful resources for Computer 
 - **Respect intellectual property**: Sharing any course material without permission is prohibited. 🔒
 
 ## 🌟 How to Contribute
-1. Navigate to the bottom of any page in the "UML Class Resources" section.
-2. Click the **Edit this page** button.
-3. You will be redirected to GitHub, where you can create a fork (copy) of the repository.
-4. Make your edits to the forked repository.
-5. Once your changes are complete, submit a **pull request (PR)** with clear details about the updates or content you are adding.
+1. Check out the [UML Class Resources](https://github.com/UMLCloudComputing/UML-Class-Resources) repository!
+2. All contribution instructions are listed there, as well as it's own development environment for testing. 
 
 Our club leaders will moderate all contributions to ensure they follow the guidelines and maintain academic integrity. 🛠️
 
